@@ -1,1 +1,44 @@
-/* add your CSS here */
+:root {
+    --background: #1B2221;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.sectionPadding {
+    padding: 0 20px;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: max-content;
+    padding: 20px 20px;
+    color: white;
+    background-color: var(--background);
+}
+.header__first {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.header__second {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header__second--phone, .header__second--language {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.logo {
+    max-width: 140px;
+}
