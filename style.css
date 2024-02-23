@@ -1,1 +1,14 @@
-/* add your CSS here */
+:root {
+    --background: #1B2221;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 140px;
+}
