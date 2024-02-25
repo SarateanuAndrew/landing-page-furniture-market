@@ -168,3 +168,36 @@ header{
 .table__info--block > img{
     margin-top: -70px;
 }
+.table__feedback {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feedback__element {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: solid 1px lightgray;
+}
+.feedback__element > img {
+    rotate: 90deg;
+}
+.feedback__element > div > img {
+    width: 60px;
+    height: 60px;
+}
+.feedback__user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.feedback__user--name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.feedback__user--rating {
+    display: flex;
+    gap: 4px;
+}
