@@ -146,3 +146,25 @@ header{
     top: 50%;
     left: 20px;
 }
+
+.feedback__table {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.table__info--image > img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.table__info--block {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.table__info--block > img{
+    margin-top: -70px;
+}
