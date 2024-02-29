@@ -1,22 +1,22 @@
-# Lab 2 - Landing page
+## MCroitoru, Sarateanu Andrei-Cristian
+I have created a project that will show the online market of a company that sells kitchens, I wish it will be helpful 
+for sellers to attract more clients. Once a pon a time, I had a fiend that was a seller of 
+kitchens made by booking, and he wanted to have a website in order to make the booking easier 
+and to attract more customers.
 
-Create a web page for your/friends/relatives business (example: car-rent, cookies-shop, crypto-scam)
+## Link to the deploy: 
 
-## Customer requirements
 
-- Some form of navigation to sections (links, buttons)
-- Call to action
-- At least 4 sections ([see examples](https://webflow.com/blog/high-converting-landing-page))
-- Pleasant to the eyes
+## Screenshots
+![alt text](resources/screens/Screen(1).png)
+![alt text](resources/screens/Screen(2).png)
+![alt text](resources/screens/Screen(3).png)
+![alt text](resources/screens/Screen(4).png)
+![alt text](resources/screens/Screen(5).png)
+![alt text](resources/screens/Screen(6).png)
+![alt text](resources/screens/Screen(7).png)
+![alt text](resources/screens/Screen(8).png)
+![alt text](resources/screens/Screen(9).png)
+![alt text](resources/screens/Screen(10).png)
+![alt text](resources/screens/Screen(11).png)
 
-## Dev requirements
-
-- Use vanilla CSS and HTML (no frameworks)
-- Have a decent git history (no one commit)
-- The page should be deployed on a free hosting service (example: GitHub Pages, Vercel, Netlify)
-- Project repo should have a README with a short description of the landing page topic, screenshots, and a link to the live demo
-
-## Other requirements:
-
-- For potential maximal mark, a WIP version should be submitted during the class
-- Use index.html, reset.css

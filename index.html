@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Furniture Market Landing Page</title>
+    <title>My landing page</title>
     <link rel="stylesheet" href="reset.css"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-
 <header>
     <div class="header__first">
         <div class="logo"><img src="resources/Logo.svg" alt=""></div>
-        <div class="miniText">Bucătării</div>
-        <div class="miniText">Contacte</div>
+        <div class="miniText cursorPointer"><a href="#bucatarii">Bucătării</a></div>
+        <div class="miniText cursorPointer"><a href="#feedback">Feedback</a></div>
     </div>
     <div class="header__second">
         <div class="header__second--phone cursorPointer">
@@ -24,7 +23,6 @@
             <img src="resources/arrow.svg" alt=""></div>
     </div>
 </header>
-
 <div class="container">
     <section class="main">
         <div class="main__text">
@@ -34,11 +32,35 @@
                     oferim soluții modulare pentru o integrare perfectă
                 </div>
             </div>
+            <div>
+                <div class="consult">
+                    <div class="title1">Consultație Gratuită</div>
+                    <div class="lineNew"></div>
+                </div>
+                <form>
+                    <div class="form__element">
+                        <label for="email">Email</label>
+                        <div class="border">
+                            <input id="email" type="email" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <div class="form__element">
+                        <label for="text">Name</label>
+                        <div class="border">
+                            <input id="text" type="text" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div>Trimite</div>
+                        <input type="submit" class="submit__button" value="">
+                    </div>
+                </form>
+            </div>
         </div>
         <div class="main__image"><img src="resources/mainImg.svg" alt=""></div>
     </section>
 
-    <section class="objects sectionPadding">
+    <section class="objects sectionPadding" id="bucatarii">
         <div class="objects__title">
             <div class="title1">Bucătării Recomandate</div>
             <div class="objects__title--minitext">
@@ -64,24 +86,11 @@
         </div>
     </section>
 
-    <section class="feedback sectionPadding">
+    <section class="feedback sectionPadding" id="feedback">
         <div class="feedback__title">
             <div class="title1">Feedback-ul clienților</div>
         </div>
         <div class="line"></div>
-        <div class="feedback__table">
-            <div class="table__info">
-                <div class="table__info--image"><img src="resources/feedbackImage.png" alt=""></div>
-                <div class="table__info--block">
-                    <img src="resources/avatar.png" alt="">
-                    <div class="table__info--user">
-                        <div class="title2">Bucătării Croitoru</div>
-                        <div class="description">11K aprecieri 12K urmăritori</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="feedback__table">
             <div class="table__info">
                 <div class="table__info--image"><img src="resources/feedbackImage.png" alt=""></div>
@@ -161,11 +170,12 @@
                 </div>
             </div>
         </div>
-
     </section>
 
+    <footer class="footer">
+        <div class="logo"><img src="resources/Logo.svg" alt=""></div>
+        <div class="miniText">© 2024 Sărăteanu Andrei - Cristian</div>
+    </footer>
 </div>
-
-
 </body>
 </html>
