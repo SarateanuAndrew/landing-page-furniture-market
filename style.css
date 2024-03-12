@@ -316,3 +316,31 @@ input:hover {
         padding-top: 65px;
     }
 }
+@media (max-width: 700px) {
+    .objects__table {
+        grid-template-columns: auto auto;
+    }
+    .header__first > .miniText {
+        display: none;
+    }
+    .header__second {
+        display: none;
+    }
+    .miniText--width {
+        display: none;
+    }
+    form {
+        flex-direction: column;
+    }
+    .button {
+        align-self: center;
+    }
+
+    .mobile__button {
+        cursor: pointer;
+        display: block;
+        width: 25px;
+        height: 25px;
+        background-image: url("assets/menu.svg");
+    }
+}
