@@ -32,6 +32,7 @@ header{
     padding: 20px 20px;
     color: white;
     background-color: var(--background);
+
     z-index: 1000;
 }
 .header__first {
@@ -287,6 +288,35 @@ input:hover {
     background-color: white;
 }
 
+.mobile__menu {
+    display: none;
+    padding: 20px;
+    border: solid 1px white;
+    background-color: var(--background);
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 5000;
+    text-align: center;
+}
+.mobile__button {
+    display: none;
+}
+.displayChange {
+    display: flex;
+}
+.imageChange {
+    background-image: url("resources/close.svg");
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 1000px) {
     .feedback__table {
         flex-direction: column;
@@ -341,6 +371,11 @@ input:hover {
         display: block;
         width: 25px;
         height: 25px;
-        background-image: url("assets/menu.svg");
+        background-image: url("resources/menu.svg");
+    }
+}
+@media (max-width: 500px) {
+    .objects__table {
+        grid-template-columns: auto;
     }
 }
