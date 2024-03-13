@@ -17,12 +17,22 @@
     <div class="header__second">
         <div class="header__second--phone cursorPointer">
             <div class="miniText">Contacte</div>
-            <img src="resources/phone.svg" alt=""></div>
+            <img src="resources/phone.svg" alt="">
+        </div>
         <div class="header__second--language cursorPointer">
             <div class="miniText">RO</div>
-            <img src="resources/arrow.svg" alt=""></div>
+            <img src="resources/arrow.svg" alt="">
+        </div>
+    </div>
+    <div class="mobile__button" id="mobile__button" onclick="toggleVisibility()">
     </div>
 </header>
+<div class="mobile__menu" id="mobile__menu">
+    <div class="miniText cursorPointer underline"><a href="#bucatarii">Bucătării</a></div>
+    <div class="miniText cursorPointer underline"><a href="#feedback">Feedback</a></div>
+    <div class="miniText cursorPointer underline">Contacte</div>
+    <div class="miniText cursorPointer underline">Schimbă Limba</div>
+</div>
 <div class="container">
     <section class="main">
         <div class="main__text">
@@ -177,5 +187,14 @@
         <div class="miniText">© 2024 Sărăteanu Andrei - Cristian</div>
     </footer>
 </div>
+<script>
+    function toggleVisibility() {
+        let element = document.getElementById("mobile__menu");
+        let icon = document.getElementById("mobile__button");
+        console.log("abc");
+        element.classList.toggle("displayChange");
+        icon.classList.toggle("imageChange");
+    }
+</script>
 </body>
 </html>
