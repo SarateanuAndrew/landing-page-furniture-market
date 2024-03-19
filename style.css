@@ -14,7 +14,7 @@ body {
 .sectionPadding {
     padding: 0 20px;
 }
-.container{
+.mycontainer{
     display: flex;
     flex-direction: column;
     max-width: 1440px;
@@ -78,34 +78,32 @@ header{
     display: flex;
     gap: 20px;
 }
-.main__image {
-    width: 50%;
-}
-.main__image > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.main__text {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /**/
-    gap: 50px;
-}
-.main__text > div {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    height: fit-content;
-    color: white;
-    padding: 20px;
-}
+/*.main__image {*/
+/*    width: 50%;*/
+/*}*/
+/*.main__image > img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*}*/
+/*.main__text {*/
+/*    width: 50%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    !**!*/
+/*    gap: 50px;*/
+/*}*/
+/*.main__text > div {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 20px;*/
+/*    height: fit-content;*/
+/*    color: white;*/
+/*    padding: 20px;*/
+/*}*/
 
 
-
-/* Section 2 */
 .objects__title {
     display: flex;
     justify-content: space-between;
